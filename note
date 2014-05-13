@@ -1,0 +1,7 @@
+create a symlink to /dev/ttyACM0 using the /dev/ttyUSB* naming scheme:
+
+ln -sf /dev/ttyACM0 /dev/ttyUSB1
+
+as per
+
+http://blog.avisi.nl/2013/01/28/serial-communication-with-an-arduino-uno-on-linux-with-java/
